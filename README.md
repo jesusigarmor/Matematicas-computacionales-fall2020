@@ -165,3 +165,6 @@ Al final del curso, tendrás que mostrar tu proyecto en 40 minutos a la clase. S
 - [Libro de git](http://git-scm.com/book)
 - [Think python](http://www.greenteapress.com/thinkpython/)
 - [Project Euler](http://projecteuler.net/)
+
+
+Documento adaptado con permiso del Dr. Adolfo de Unánue Tiscareño
