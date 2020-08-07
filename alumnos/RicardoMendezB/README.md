@@ -1,9 +1,9 @@
-#Datos del alumno
+# Datos del alumno
 
-Nombre: Ricardo Odilón Méndez Bribiesca
+- **Nombre:** Ricardo Odilón Méndez Bribiesca
 
-Clave Única: 181566
+- **Clave Única:** 181566
 
-Correo Electrónico: rmendezb@itam.mx
+- **Correo Electrónico:** rmendezb@itam.mx
 
-Preferencia de Nombre: Ricardo
+- **Preferencia de Nombre:** Ricardo
