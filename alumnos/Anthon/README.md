@@ -1,6 +1,6 @@
 # Datos del alumno
-- **Nombre:** Miguel Angel Escalante Serrato
-- **Clave Única:**  108683
-- **Correo Electrónico:** miguel.escalante@itam.mx
-- **Preferencia de Nombre:** Miguel
+- **Nombre:** Antonio Cruz 
+- **Clave Única:**  140019
+- **Correo Electrónico:** dcruzalv@itam.mx
+- **Preferencia de Nombre:** Antonio
 
