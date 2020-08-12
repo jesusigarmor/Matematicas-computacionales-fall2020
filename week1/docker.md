@@ -78,7 +78,7 @@ docker run -p 8888:8888 -it skalas/matematicas-computacionales-fall2020
 ```
 - Aquí son el usuario `jovyan`.
 - Ejecuten el comando `whoami`. Debería de aparecer `jovian`
-- Si llegaron hasta acá ¡Felicidades! No sufrirán más de lo necesario este curso.
+- Si llegaron hasta acá ¡Felicidades! No sufrirán más de lo necesario en este curso.
 - Para salir de `docker` usen `Ctrl-d` o tecleen `exit`.
 
 
