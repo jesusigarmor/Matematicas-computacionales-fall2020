@@ -113,7 +113,7 @@ La parte clave es `no changes added to commit`. Hemos cambiado el
 archivo, pero aún no están "comprometidas" o guardadas en el repositorio.
 Para ver que ha cambiado usamos lo siguiente
 
-```
+```Matematicas-computacionales-fall2020
 ➜ git diff
 ```
 
@@ -209,7 +209,7 @@ por comodidad, podemos usar **Github** de tal manera.
 El repositorio de la clase está en:
 
 ```
-https://github.com/Skalas/Analisis-aplicado-fall2020
+https://github.com/Skalas/Matematicas-computacionales-fall2020
 ```
 
 Lo primero que hay que hacer es **forkear** este repositorio. La
@@ -218,10 +218,10 @@ de github. Para obtener una copia de trabajo en su computadora deberán
 de **clonar** su repositorio:
 
 ```
-➜ git clone https://github.com/<usuario_git_hub>/Analisis-aplicado-fall2020.git
+➜ git clone https://github.com/<usuario_git_hub>/Matematicas-computacionales-fall2020.git
 ```
 
-Esto creará una carpeta `Analisis-aplicado-fall2020` en su `$HOME`.
+Esto creará una carpeta `Matematicas-computacionales-fall2020` en su `$HOME`.
 
 Ve a la carpeta `alumnos` y crea una carpeta cuyo nombre sea tu nombre
 de usuario en github. En esta carpeta realizarás las tareas,
