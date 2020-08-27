@@ -249,7 +249,7 @@ tu carpeta). Llamalo `prueba2.txt` y agrega algo de texto. Para
 guardar los cambios aprieta el botón `Commit new file`.
 
 En tu computadora, en `docker` en la carpeta
-`Analisis-aplicado-fall2020`, para obtener los últimos cambios utiliza:
+`Matematicas-computacionales-fall2020`, para obtener los últimos cambios utiliza:
 
 ```
 ➜ git pull origin master
@@ -257,35 +257,35 @@ En tu computadora, en `docker` en la carpeta
 
 En tu carpeta debería de aparecer el archivo `prueba.txt`. Ahora
 quedan por contestar dos preguntas: (1) ¿Cómo actualizo el repositorio
-`Skalas/Analisis-aplicado-fall2020` (para entregar tarea por ejemplo?
+`Skalas/Matematicas-computacionales-fall2020` (para entregar tarea por ejemplo?
 y (2) ¿Cómo actualizo mi repositorio con los cambios del repositorio
-de `Skalas/Analisis-aplicado-fall2020`?
+de `Skalas/Matematicas-computacionales-fall2020`?
 
 Para ambas preguntas es necesario aclarar el concepto de los `remote`:
 Si ejecutas
 
 ```
 ➜ git remote -v
-origin  https://github.com/<usuario>/Analisis-aplicado-fall2020.git (fetch)
-origin  https://github.com/<usuario>/Analisis-aplicado-fall2020.git (push)
+origin  https://github.com/<usuario>/Matematicas-computacionales-fall2020.git (fetch)
+origin  https://github.com/<usuario>/Matematicas-computacionales-fall2020.git (push)
 ```
 
 Vamos a agregar como `remote` el repositorio
-`Skalas/Analisis-aplicado-fall2020`:
+`Skalas/Matematicas-computacionales-fall2020`:
 
 ```
 ➜ git remote add repo-clase
-https://github.com/Skalas/Analisis-aplicado-fall2020.git
+https://github.com/Skalas/Matematicas-computacionales-fall2020.git
 ```
 
 Ejecuta de nuevo `git remote -v`
 
 ```
 ➜ git remote -v
-origin	git@github.com:Skalas/Analisis-aplicado-fall2020.git (fetch)
-origin	git@github.com:Skalas/Analisis-aplicado-fall2020.git (push)
-repo-clase	https://github.com/Skalas/Analisis-aplicado-fall2020.git (fetch)
-repo-clase	https://github.com/Skalas/Analisis-aplicado-fall2020.git (push)
+origin	git@github.com:Skalas/Matematicas-computacionales-fall2020.git (fetch)
+origin	git@github.com:Skalas/Matematicas-computacionales-fall2020.git (push)
+repo-clase	https://github.com/Skalas/Matematicas-computacionales-fall2020.git (fetch)
+repo-clase	https://github.com/Skalas/Matematicas-computacionales-fall2020.git (push)
 ```
 
 Entonces, la respuesta a la primera pregunta es una técnica llamada `pull-request` que en
@@ -319,7 +319,7 @@ Te sientas en la compu, abres `docker`.
 y:
 
 ```
-➜ cd Analisis-aplicado-fall2020
+➜ cd Matematicas-computacionales-fall2020
 ➜ git pull origin master
 ```
 
@@ -357,7 +357,7 @@ nothing to commit, working directory clean
 
 
 Cuando quieran enviar la tarea realizan el `pull-request`. Y habrán
-terminado si en el repositorio `Skalas/Analisis-aplicado-fall2020`
+terminado si en el repositorio `Skalas/Matematicas-computacionales-fall2020`
 están sus cambios.
 
 ¡Has terminado! Ahora puedes irte a descansar y disfrutar del sol...
