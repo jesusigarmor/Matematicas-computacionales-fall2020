@@ -11,7 +11,7 @@ Es una plataforma de virtualización además de un conjunto de comandos para est
 - [Mac OS X](https://docs.docker.com/docker-for-mac/)
 - [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - [MS Windows](https://docs.docker.com/docker-for-windows/install/)
-  - [Windows Home Edition](https://docs.docker.com/docker-for-windows/install-windows-home/)
+  - [Windows Home Edition](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
 ## Imágen y contenedores
 
@@ -78,7 +78,7 @@ docker run -p 8888:8888 -it skalas/matematicas-computacionales-fall2020
 ```
 - Aquí son el usuario `jovyan`.
 - Ejecuten el comando `whoami`. Debería de aparecer `jovian`
-- Si llegaron hasta acá ¡Felicidades! No sufrirán más de lo necesario este curso.
+- Si llegaron hasta acá ¡Felicidades! No sufrirán más de lo necesario en este curso.
 - Para salir de `docker` usen `Ctrl-d` o tecleen `exit`.
 
 
