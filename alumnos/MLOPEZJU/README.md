@@ -6,5 +6,5 @@
 
 **Correo electronico:** mlopezj5@itam.mx
 
-**Preferencia de nombre:** Fernanda o Fer
+**Preferencia de nombre:** María Fernanda o Fernanda o Fer o MariFer
 
