@@ -84,7 +84,7 @@ Las tareas serán especificadas cada semana y deberán entregarse el jueves post
 
 #### Examen intermedio
 
-Habrá un examen intermedio que estará basado en las tareas y temas vistos en clase, no debería de haber ningún problema.
+El día 22 de octubre habrá un examen intermedio que estará basado en las tareas y temas vistos en clase, no debería de haber ningún problema.
 
 #### Proyecto
 
