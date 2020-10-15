@@ -1,7 +1,7 @@
 ---
 title: "Visualización con R"
 author: "Miguel Angel Escalante Serrato"
-date: "Octubre 13, 2020"
+date: "Octubre 15, 2020"
 output:
   html_document:
     css: estilos.css
