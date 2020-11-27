@@ -43,10 +43,10 @@ class GA:
     def crear_poblacion(self, fitness_arr):
         pass
 
-    def seleccionar(self):
+    def seleccionar(self, fitness_arr):
         new_gen = self.población[1:self.num_elites]
-        fitness_poblacion = sum(self.fitness_arr)
-        for i in range(len(self.poblacion)-self.num_elites):
+        fitness_poblacion = sum(fitness_arr)
+        for i in range(len(self.poblacion) - self.num_elites):
             num_azar = np.random.uniform(low=0, high=fitness_poblacion)
             suma_fitness = 0
             for j in self.poblacion:
