@@ -1,6 +1,7 @@
 # Escribe aquí la clase GA
 import numpy as np
 from Cromosoma import BitCromosoma
+import random
 
 
 class GA:
@@ -41,6 +42,11 @@ class GA:
             return False
 
     def crear_poblacion(self, fitness_arr):
+        
+        pass
+
+    def crossover(self, i, j):
+        crossover_point = random.randint(0, i.length)
         pass
 
     def seleccionar(self, fitness_arr):
