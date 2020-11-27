@@ -23,7 +23,7 @@ class GA:
     def run(self):
         fitness_arr = []
         self.poblacion.sort(reverse=True, key=self.fitness)
-        # Evaluación del fitness de toda la población
+        # Evaluación del fitness de toda la poblacion
         for i in self.poblacion:
             fitness_arr.append(self.fitness(i))
         # Encontramos la mejor solución de la generación.
@@ -44,7 +44,7 @@ class GA:
         pass
 
     def seleccionar(self, fitness_arr):
-        new_gen = self.población[1:self.num_elites]
+        new_gen = self.poblacion[1:self.num_elites]
         fitness_poblacion = sum(fitness_arr)
         for i in range(len(self.poblacion) - self.num_elites):
             num_azar = np.random.uniform(low=0, high=fitness_poblacion)
