@@ -37,16 +37,6 @@ class GA:
         else:
             return False
 
-    def seleccionar(self):
-        self.poblacion.sort(reverse=True, key=self.fitness)
-        fitness_poblacion = sum(self.fitness_arr)
-        num_azar = np.random.uniform(low=0, high=fitness_poblacion)
-        suma_fitness = 0
-        for i in self.poblacion:
-            suma_fitness += self.fitness(i)
-            if suma_fitness > num_azar:
-                return i
-
     def plot():
         pass
 
@@ -64,3 +54,14 @@ class GA:
                 "\nMejor Solución de la Generación" +
                 str(self.mejor_solucion_actual) +
                 "\nNúmero de generación" + str(self.generacion))
+
+
+    # def seleccionar(self):
+    # #self.poblacion.sort(reverse=True, key=self.fitness)
+    # fitness_poblacion = sum(self.fitness_arr)
+    # num_azar = np.random.uniform(low=0, high=fitness_poblacion)
+    # suma_fitness = 0
+    # for i in self.poblacion:
+    #     suma_fitness += self.fitness(i)
+    #     if suma_fitness > num_azar:
+    #         return i
